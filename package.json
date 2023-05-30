@@ -1,0 +1,25 @@
+{
+  "name": "desafio-medway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "eslint --max-warnings=0"
+  },
+  "author": "João Domingos",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "eslint": "^8.41.0"
+  }
+}
